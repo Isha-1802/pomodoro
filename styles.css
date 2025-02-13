@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e3d4; /* Cream background */
+    color: #3a2e2e; /* Dark brown for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Timer Container */
+.timer-container {
+    background-color: #f3d3d3; /* Soft pink */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #bc6e6d; /* Light red for header */
+}
+
+/* Timer Display */
+#time-display {
+    font-size: 4rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #a5675f; /* Slightly darker red for the time */
+}
+
+/* Buttons Styling */
+button {
+    background-color: #e88d8c; /* Light red */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #bc6e6d; /* Slightly darker red on hover */
+}
+
+/* Input Fields Styling */
+input {
+    width: 60px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 2px solid #e88d8c;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #bc6e6d;
+}
+
+/* Settings Section */
+.settings {
+    margin-top: 20px;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-size: 1rem;
+    margin: 5px 0;
+}
